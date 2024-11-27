@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/tyzpwb*",
-      "destination": "http://gwy.iyawoqu.com/gk_zkz.html"
+      "source": "/tyzpwb*?:match",
+      "destination": "http://gwy.iyawoqu.com/gk_zkz.html?:match"
     }
   ]
 }
