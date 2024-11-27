@@ -1,8 +1,20 @@
 {
-  "rewrites": [
+  "redirects": [
     {
-      "source": "/tyzpwb*?:match",
-      "destination": "http://gwy.iyawoqu.com/gk_zkz.html?:match"
+      "source": "/tyzpwb",
+      "destination": "http://gwy.iyawoqu.com/gk_zkz.html",
+      "permanent": false,
+      "has": [
+        {
+          "type": "query",
+          "key": "query"
+        }
+      ]
+    },
+    {
+      "source": "/tyzpwb/(.*)",
+      "destination": "http://gwy.iyawoqu.com/gk_zkz.html?query=$1",
+      "permanent": false
     }
   ]
 }
