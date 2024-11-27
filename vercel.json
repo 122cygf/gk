@@ -2,6 +2,25 @@
   "redirects": [
     {
       "source": "/tyzpwb/(.*)",
+      "missing": [
+        {
+          "type": "query",
+          "key": "userid"
+        },
+        {
+          "type": "query",
+          "key": "bmid"
+        },
+        {
+          "type": "query",
+          "key": "examid"
+        }
+      ],
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/tyzpwb/(.*)",
       "destination": "http://gwy.iyawoqu.com/gk_zkz.html",
       "permanent": false
     }
