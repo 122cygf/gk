@@ -2,40 +2,26 @@
   "redirects": [
     {
       "source": "/tyzpwb/(.*)",
-      "missing": [
+      "has": [
         {
           "type": "query",
           "key": "userid"
-        }
-      ],
-      "destination": "http://gwy.iyawoqu.com/hlj_zkz_error.html",
-      "permanent": false
-    },
-    {
-      "source": "/tyzpwb/(.*)",
-      "missing": [
+        },
         {
           "type": "query",
           "key": "bmid"
-        }
-      ],
-      "destination": "http://gwy.iyawoqu.com/hlj_zkz_error.html",
-      "permanent": false
-    },
-    {
-      "source": "/tyzpwb/(.*)",
-      "missing": [
+        },
         {
           "type": "query",
           "key": "examid"
         }
       ],
-      "destination": "http://gwy.iyawoqu.com/hlj_zkz_error.html",
+      "destination": "http://gwy.iyawoqu.com/hlj_zkz.html",
       "permanent": false
     },
     {
       "source": "/tyzpwb/(.*)",
-      "destination": "http://gwy.iyawoqu.com/hlj_zkz.html",
+      "destination": "http://gwy.iyawoqu.com/hlj_zkz_error.html",
       "permanent": false
     }
   ]
