@@ -17,12 +17,12 @@
         }
       ],
       "destination": "http://gwy.iyawoqu.com/hlj_zkz.html",
-      "permanent": false
+      "statusCode": 302
     },
     {
       "source": "/tyzpwb/(.*)",
       "destination": "http://gwy.iyawoqu.com/hlj_zkz_error.html",
-      "permanent": false
+      "statusCode": 302
     }
   ]
 }
